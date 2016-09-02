@@ -4,5 +4,5 @@ node {
 	stage 'Build'
 
 	checkout scm
-	sh 'mvn clean package'
+	bat 'mvn clean package'
 }
